@@ -1,9 +1,9 @@
 module "tfplan-functions" {
-    source = "./common-functions/tfplan-functions/tfplan-functions.sentinel"
+    source = "./tfplan-functions.sentinel"
 }
 
   module "tfplan/v2" {
-    source = "./mocks/gce-instance-mock-tfplan-v2.sentinel"
+    source = "./mocks/mock-tfplan-v2.sentinel"
   }
 
 
